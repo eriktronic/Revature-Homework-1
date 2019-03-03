@@ -1,0 +1,63 @@
+a:link, a:visited{
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active{
+  background-color: red;
+}
+body{
+    background-color : black; 
+    color : white;
+}
+#bgimg{
+    background-image: url("Images/computers-components-wallpaper-2.jpg");
+}
+#blknred{
+    color: red;
+    background-color: black;
+}
+#bgwhite{
+    background-color: white;
+    
+}
+#bgpurple{
+    background-color: blueviolet;
+}
+#bgred{
+    background-color: red;
+}
+#bgblue{
+    background-color:blue;
+}
+#bggreen{
+    background-color: greenyellow;
+}
+
+.customer{
+    border: 2px solid blue;
+    font-family: Arial;
+    font-size: 14px;
+    color: orange;
+}
+#bgblack{
+    background-color: black;
+
+}
+th{
+    border: 2px solid black;
+}
+#grybsq{
+    border: 1px solid gray;
+    background-color: bisque;
+}
+#test{
+    background-color: purple;
+}
+.test{
+    background-color: blue;
+}
