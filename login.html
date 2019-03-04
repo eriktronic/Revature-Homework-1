@@ -7,19 +7,24 @@
     </head>    
     <body id="bgimg">
         <form action="index.html">
-        <table id="blknred">
-            <tr>
-                <th>
-                    <img src = "Images/Real logo 3.png"
-					alt = "Oh no! The awesome logo I designed in high school did not load." 
-					width = "120"
-					height = "120"/>
-                </th>
-                <th><h1><span style="color:red"><b><u>EJTRONICS</u></b></span></h1></th>
-            </tr>
-
-        </table>
-            <table border=1 id="blknred">
+            <table border="1" align="center" id="bgblack">
+                <tr>
+                    <td>
+                        <a id="bgnone" href="index.html">
+                            <img src="Images/Real Logo 3.png" alt="Home" title="Home" style="width:120px;height:120px;">
+                        </a>
+                    </td>
+                    <td width="300" align="center"><h1><span style="color:red"><b><u>EJTRONICS</u></b></span></h1></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <h2>Login</h2>
+                    </td>
+                    
+                </tr>
+            </table>
+            
+            <table align="center" border=1 id="blknred">
                 <tr height = "20">
                     <td width="100" align="right"><span><b>Username:</b></td>
                     <td width="100"><input type = "text" required/></td>
@@ -30,13 +35,11 @@
 
                 </tr>
                 <tr>
-                    <td><input type = "submit"/></td>
-                    
-                    <td><a href="index.html">Cancel</a></td>
-
+                    <td><input type="submit"></td>
+                    <td><input type="button" onclick="window.location.href = 'index.html';" value="Cancel"/></td>
                 </tr>
 
-    
+
             </table>
         </form>
         
